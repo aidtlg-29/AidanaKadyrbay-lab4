@@ -1,0 +1,89 @@
+<!DOCTYPE>
+<html>
+<head>
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+  
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+ 
+</head>
+<body>
+    
+ 
+    
+    <div class="header">
+      
+            <img  id = "menuphoto"src="image/menuphoto.png" alt="not found">
+            
+
+       
+            
+      
+        <div class="headtext">
+            <a href="index.html">Home</a>
+            <a href="aboutme.html">About me</a>
+            <a href="myhobby.html">My hobby</a>
+        </div>
+        <form action="/search/" target="_blank" id="form-search">
+            <input type="hidden" name="searchid" value="808327">
+            <input type="search" name="text" required placeholder="search...">
+            <input type="submit" value="&#128269;">
+          </form>
+        
+    </div>
+
+
+
+    
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+              <div class="numbertext">1 / 2</div>
+              <img src="image/jq2.jpeg" style="width:100%; height: 80%;">
+              
+            </div>
+            
+            <div class="mySlides fade">
+              <div class="numbertext">2 / 2</div>
+              <img src="image/jq1.jpg" style="width:100%; height: 80%;">
+              
+            </div>
+            
+            <p class="prev" onclick="plusSlides(-1)"><</p>
+            <p class="next" onclick="plusSlides(1)">></p>
+            
+            
+            
+            
+            
+              <div class="dot" onclick="currentSlide(1)"></div> 
+              <div class="dot" onclick="currentSlide(2)"></div> 
+              
+            
+        </div>
+
+        <div class="maintext">
+            <h1>Aidana Kadyrbay</h1>
+            <h3>My name is Aidana, I'm a second-year student. <br>Since childhood, I played chess, as well as 5 <br>years of hard basketball.<br></h3>
+            <a href="aboutme.html">Read more...</a>
+            <br>
+            
+        </div>
+        <div class="input">
+            <form method="get" action="test.php">
+            <input type="text" name="username" placeholder="Full name"  />
+            <input type="text" name="email" placeholder="Email"  />
+            <input type="submit"   value="join me">
+        </form>
+        </div>
+
+      
+
+      
+    <script src="script.js"></script>
+
+
+</body>
+</html>
